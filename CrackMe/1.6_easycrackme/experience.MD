@@ -1,11 +1,11 @@
 Solution:
-strings easy.exe
+strings easy.exe </br>
 -find the hashed value 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
 and find it in database websites like hashes.com and youll get "password"
 
 MY EXPERIENCE
 First thing i did is to look up the strings (strings easy.exe) that can give me the password and i saw the hashed value but i emmediately thought that hashes are impossible to read since it cannot be reverse therefore its useless, SO I IGNORED IT.
-I tried to run it on gdb, disassemble main, info functions, x64dbg, ghidra, ida pro but i cant solve it as the program has so many noise that confuses me and i look up the comments of the crackme challenge and they are saying {
+I tried to run it on gdb, disassemble main, info functions, x64dbg, ghidra, ida free but i cant solve it as the program has so many noise that confuses me and i look up the comments of the crackme challenge and they are saying {
 
 msym on 2026-02-23 06:15: Password is just password
 
