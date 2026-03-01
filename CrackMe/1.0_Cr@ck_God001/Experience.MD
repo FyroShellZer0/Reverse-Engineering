@@ -1,1 +1,1 @@
-yeah
+The program always says "Success" which made me wonder whats the point of this program. So again i look up the comment and there is only 1 commend saying that it always says "Success" but if i want to fail, change the jnz(NOT ZERO) into jz(ZERO) at 185c 75 - 74
